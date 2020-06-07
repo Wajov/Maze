@@ -63,7 +63,6 @@ public class Maze extends JFrame {
      * Create the frame.
      */
     public Maze() throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
-        UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("Maze");
         setBounds(100, 100, 630, 460);
